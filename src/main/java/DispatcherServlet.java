@@ -46,8 +46,6 @@ public class DispatcherServlet extends HttpServlet {
 
             String actualString = new ObjectMapper().writeValueAsString(value);
 
-            System.out.println(actualString);
-
             resp.getWriter().print(actualString);
         } catch(InvocationTargetException e) {
             resp.sendError(500, "exception when calling method someThrowingMethod : "+e.getTargetException().getMessage());
