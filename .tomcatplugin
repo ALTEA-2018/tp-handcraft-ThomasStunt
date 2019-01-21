@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcatProjectProperties>
+    <rootDir></rootDir>
+    <workDir>/work</workDir>
+    <exportSource>false</exportSource>
+    <reloadable>true</reloadable>
+    <redirectLogger>false</redirectLogger>
+    <updateXml>true</updateXml>
+    <warLocation>/home/m2miage/perrier/Documents/ALTEA/tp-handcraft-ThomasStunt/target/handcrafting-0.1.0.war</warLocation>
+    <extraInfo></extraInfo>
+    <mavenClasspath>false</mavenClasspath>
+    <webPath></webPath>
+</tomcatProjectProperties>
